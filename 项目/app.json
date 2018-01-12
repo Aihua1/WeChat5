@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/Publish/Publish",
+    "pages/Information/Information",
+    "pages/Register/Register",
+    "pages/Login/Login",
+    "pages/About/About",
+    "pages/HomePage/HomePage",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroudColor":"green",
+    "enablePullDownRefresh": "true",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "debug":false
+}
